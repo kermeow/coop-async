@@ -1,0 +1,9 @@
+{
+    "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+    "diagnostics": {
+        "disable": ["lowercase-global"]
+    },
+    "runtime": {
+        "version": "Lua 5.3"
+    }
+}
