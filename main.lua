@@ -1,5 +1,7 @@
 -- testing
 
+local async = require("async")
+
 hook_event(HOOK_ON_MODS_LOADED, async(function()
     async.wait(5)
     log_to_console("Mods loaded 5 seconds ago")

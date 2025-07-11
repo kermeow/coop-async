@@ -339,6 +339,4 @@ local async_mt = {
     __metatable = "async metatable locked"
 }
 
-_ENV.async = setmetatable({}, async_mt)
-
 return setmetatable({}, async_mt)
